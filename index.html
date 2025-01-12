@@ -19,6 +19,30 @@
             align-items: center;
             min-height: 100vh;
         }
+        header {
+            width: 100%;
+            background-color: #1e1e1e;
+            padding: 20px 0;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+        footer {
+            width: 100%;
+            background-color: #1e1e1e;
+            padding: 10px 0;
+            text-align: center;
+            position: relative;
+            bottom: 0;
+            box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.3);
+        }
+        footer p {
+            margin: 0;
+            font-size: 14px;
+        }
         .casino-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
@@ -143,6 +167,9 @@
     </style>
 </head>
 <body>
+    <header>
+        <h1>Başlık</h1>
+    </header>
     <!-- Casino Grid -->
     <div class="casino-grid">
         <div class="casino">
@@ -234,5 +261,8 @@
             politikaları, ödeme yöntemleri ve kullanıcı deneyimlerini iyileştiren özellikleri vurgulanabilir.
         </p>
     </div>
+    <footer>
+        <p>Skype: casino_support</p>
+    </footer>
 </body>
 </html>
